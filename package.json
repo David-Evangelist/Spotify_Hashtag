@@ -1,0 +1,21 @@
+{
+  "name": "spotify_hashtag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back_end && npm install --prefix front_end && npm run build --prefix front_end",
+    "start": "npm run start --prefix back_end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Evangelist/Spotify_Hashtag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Evangelist/Spotify_Hashtag/issues"
+  },
+  "homepage": "https://github.com/David-Evangelist/Spotify_Hashtag#readme",
+  "description": ""
+}
