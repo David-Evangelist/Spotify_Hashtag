@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-import "dotenv/config";
 import axios from "axios";
 
 // const { NODE_ENV } = process.env;
