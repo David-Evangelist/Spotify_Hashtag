@@ -1,0 +1,30 @@
+Tópicos:
+
+- Construir a API 
+- Conexão com o Banco de Dados
+- Conectar o Front com o Back (Express.js)
+- Lógicas do Player
+- Github e Deploy
+
+_______________________________________________________
+
+Criar uma pasta "back-end" > pasta "api" > "server.js"
+
+Criar um package.jason : npm init -y
+
+Instalar o Express: npm i express
+
+API (Application Programming Interface)
+
+Importar o Express em server.js : import express from "express";
+
+Colocar no json : type: "module"
+
+Criar uma conta no MongoDB
+
+Senha MongoDB: 3LClAoRhU2YRS1Vb
+
+mongodb+srv://David_Evangelist:3LClAoRhU2YRS1Vb@cluster0.roffu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+

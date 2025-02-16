@@ -1,0 +1,37 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 120%;
+  font-family: var(--font-montserrat);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a,
+button {
+  cursor: pointer;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  min-height: 100svh;
+  background-color: var(--green-1000);
+  color: var(--green-50);
+}

@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: var(--container-padding);
+  margin: var(--container-margin);
+  border-radius: var(--border-radius-m);
+  font-family: var(--font-montserrat);
+  flex: 1;
+  background-image: linear-gradient(
+    to bottom,
+    var(--green-900),
+    var(--green-1000)
+  );
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 12px 16px;
+  }
+}

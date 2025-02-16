@@ -1,0 +1,39 @@
+:root {
+  /* FONTS */
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* COLORS */
+  --green-spotify: #1ed760;
+
+  --green-50: hsl(141deg 75% 90%);
+  --green-100: hsl(141deg 75% 85%);
+  --green-100-25: hsl(141deg 75% 80% / 25%);
+  --green-200: hsl(141deg 75% 70%);
+  --green-300: hsl(141deg 75% 60%);
+  --green-400: hsl(141, 75%, 50%);
+  --green-400-25: hsl(141deg 75% 50% / 25%);
+  --green-500: hsl(141deg 75% 45%);
+  --green-600: hsl(141deg 75% 35%);
+  --green-700: hsl(141deg 75% 25%);
+  --green-800: hsl(141deg 75% 15%);
+  --green-800-85: hsl(141deg 75% 15% / 85%);
+  --green-900: hsl(141deg 75% 10%);
+  --green-950: hsl(141deg 75% 5%);
+  --green-1000: hsl(141deg 75% 2.5%);
+  --green-1000-50: hsl(141deg 75% 2.5% / 50%);
+
+  /* BORDERS */
+  --border-radius-xs: 5px;
+  --border-radius-s: 10px;
+  --border-radius-m: 15px;
+
+  /* MARGIN AND PADDING */
+  --container-margin: 0 8px 8px;
+  --container-padding: 25px;
+
+  /* TRANSITIONS */
+  --transition-duration: 200ms;
+  --transition-function: ease;
+  --transition-function-duration: var(--transition-function)
+    var(--transition-duration);
+}
